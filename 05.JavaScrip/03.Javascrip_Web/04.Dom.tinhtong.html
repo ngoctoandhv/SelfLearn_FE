@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        function TinhTong() {
+            var soa=document.getElementById("soa");
+            var sob=document.getElementById("sob");
+            var kq=document.getElementById("kq");
+
+            //NaN = Not a number --> hàm kiểm tra số : isNaN(chuỗi) --> là số False --> không phải số -->True
+
+            if (isNaN(soa.value)||isNaN(sob.value)) {
+                alert("Nhap vao so a va so b")
+                return false;
+            } else {
+                soa=parseFloat(soa.value);
+                sob=parseFloat(sob.value);
+                var tong=soa + sob;
+                kq.value=tong;
+                return true;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <form action="">
+        So a : <input type="text" id="soa"><br>
+        So b : <input type="text" id="sob"><br>
+        Ket qua <input type="text" id="kq"><br>
+        <input type="button" value="Tinh tong" onclick="return TinhTong()">
+    </form>
+</body>
+</html>

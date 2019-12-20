@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form  name="form1" action="trangchu.php">
+        Name : <input type="text" name="username">
+        <br>
+        <input type="submit" value="Kiem tra nhap" onclick="return KiemTraNhap()">
+    </form>
+
+    <p id="thongbao"></p>
+
+    <script>
+        function KiemTraNhap() {
+            //var inputTen = document.forms["form1"]["usernamee"];
+            var inputTen = document.form1.username;
+            var giatriTen = inputTen.value;
+            var theP = document.getElementById("thongbao");
+            if (giatriTen == "") {
+                theP.style.display = "block";
+                theP.innerHTML = "Hay nhap vao gia tri";
+                theP.style.color = "red";
+                return false;
+            } else {
+                theP.style.display="none";
+                return true;
+            }
+            
+        }
+    </script>
+
+</body>
+</html>

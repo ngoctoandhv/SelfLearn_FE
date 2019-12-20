@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #444444;
+    line-height: 25px;
+    font-weight: 400;
+}
+/* style header */
+#header {
+    background:#009999;
+    margin-bottom: 20px;
+}
+a#logo {
+    padding: 14px 0px;
+    display: block;
+}
+a#logo img {
+    display: block;
+}
+ul#main-menu li {
+    float: left;
+}
+ul#main-menu li>a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 25px 20px;
+    color: #ffffff;
+    text-transform:uppercase;
+    line-height: 30px;
+    display: block;
+}
+ul#main-menu li:hover a {
+    background: #f0f0f0;
+    transform: all 0.25s;
+    color: #333333;
+}
+
+/* style wp-content */
+#wp-content {
+    background: #fbfbfb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    /* style content */
+#content {
+    width: 875px;
+    padding: 0px 28px 0px 30px;
+    border-right: 1px solid #ededed;
+}
+h1.post-title, #sidebar .widget .widget-title h4 {
+    font-size: 23px;
+    line-height: 30px;
+    color: #333333;
+    padding: 13px 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.post-detail p {
+    margin-bottom: 15px;
+}
+    /* style sidebar */
+#sidebar {
+    width: 295px;
+    padding: 0px 15px 0px 30px;
+}
+ul.list-category li a {
+    font-size: 14px;
+    line-height: 35px;
+    color: #555555;
+    display: block;
+    padding-left: 16px;
+    position: relative;
+}
+ul.list-category li a::before  {
+    content: "\f105";
+    font-family: 'fontawesome';
+    position: absolute;
+    left: 5px;
+}
+ul.list-category li:hover a,#footer ul.list-course li:hover a {
+    color: #009999;
+    transition: color 0.25s;
+}
+/* style footer */
+#footer {
+    background:#333333;
+    color: #e3e3e3;
+    padding: 42px 0px 52px 0px;
+}
+#footer .widget-title h4 {
+    font-size: 21px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 2px 0px;
+    margin-bottom: 10px;
+}
+#footer .widget-detail p {
+    line-height: 30px;
+}
+#footer ul.list-course li a {
+    color: #e3e3e3;
+    font-size: 13px;
+    line-height: 30px;
+    display: block;
+}
+/* style copyright */
+#copyright {
+    padding: 8px 0px;
+    background:#404040;
+}
+#copyright p {
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #e3e3e3;
+    
+}

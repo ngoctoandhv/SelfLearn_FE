@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form trong webside</title>
+</head>
+<body>
+    <!-- form đăng ký thành viên -->
+    <h1>Đăng ký thành viên</h1>
+    <!-- nhập họ tên -->
+    <label for="full name">Họ và tên</label><br>
+    <input type="text" name="full name" id="full name"><br>
+     <!-- nhập tên đăng nhập -->
+    <label for="username">Tên đăng nhập</label><br>
+    <input type="text" name="username" id="username"><br>
+    <!-- nhập mật khẩu -->
+    <label for="password">Mật khẩu</label><br>
+    <input type="password" name="password" id="password"><br>
+    <!-- nhập email -->
+    <label for="email">Email</label><br>
+    <input type="email" name="email"><br>
+    <!-- nhập giới tính -->
+    <label for="">Giới tính</label><br>
+    <input type="radio" name="gender" id="male" value="male"><label for="male">Nam</label><br>
+    <input type="radio" name="gender" id="female" value="female"><label for="female">Nữ</label><br>
+    <!-- Nhập ngày sinh -->
+    <label for="">Ngày tháng năm sinh</label> <br>
+    <label for="">Ngày</label> 
+    <select name="birth">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <label for="">Tháng</label> 
+    <select name="birth">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <label for="">Năm</label> 
+    <select name="birth">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <br>
+    <!-- hobby -->
+    <label for="">Sở thích</label><br>
+    <input type="checkbox" name="hobby[]" value="travel" id="travel" ><label for="travel">Du lịch</label><br>
+    <input type="checkbox" name="hobby[]" value="music" id="music" ><label for="music">Nghe nhạc</label><br>
+    <!-- passion -->
+    <label for="passion">Mơ ước</label> <br>
+    <textarea name="passion" id="passion" cols="50" rows="10"></textarea><br>
+    <!-- submit -->
+    <input type="submit" name="reg" value="Đăng ký">
+
+</body>
+</html>

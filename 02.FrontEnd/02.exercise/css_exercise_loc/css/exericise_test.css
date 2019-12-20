@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lato';
+    background: #ffffff;
+    line-height: 22px;
+}
+.fl-left {float: left;}
+.fl-right {float: right;}
+#wrapper {
+    width: 1170px;
+    margin: 0px auto;
+}
+/* style header */
+#header {
+    background: beige;
+}
+#main-menu li {
+    float: left;
+}
+#main-menu li a,#home a {
+    display: block;
+    padding: 20px;
+}
+#main-menu li:hover a, #home:hover a {
+    background: #596379;
+    transition: all 0.2s;
+}
+/* style wp-content */
+#wp-content {
+    background: #ffffff;
+ }
+ #sidebar {
+     background: #fbfbfb;
+     padding: 20px 15px;
+     color:#5b5252;
+     width: 60%;
+     min-height: 450px;
+     float: right;
+ }
+ #content {
+     padding: 20px 15px;
+     color:#5b5252;
+     width: 40%;
+     min-height: 450px;
+     float: left;
+     margin-top:  100px;
+ }
+h1 {
+    font-size: 40px;
+    font-weight: 500px;
+    color: #4e6cb4;
+    margin-bottom: 20px;
+}
+#button {
+    width: 200px;
+    margin-top: 5px;
+}
+/* style footer */
+#footer {
+    padding: 20px 15px;
+    background: rgb(59, 168, 168);
+}

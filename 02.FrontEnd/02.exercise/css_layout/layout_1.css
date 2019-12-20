@@ -1,0 +1,33 @@
+body {
+    background: #f3f4f6;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+}
+#wrapper {
+    margin: 0px auto;
+    width: 960px;
+}
+.text-center {
+    text-align: center;
+}
+/* Style header */
+#header {
+    background: #404040;
+    padding: 10px 0px 14px 0px;
+    color:#fff;
+}
+/* Style content */
+#content {
+    background: #fff;
+    padding: 20px 15px;
+    color: #2f2e2e;
+    min-height: 550px;
+}
+/* Style footer */
+#footer {
+    background:#808080;
+    padding: 23px 0px 35px 0px;
+    color: #fff;
+}

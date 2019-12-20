@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        //Hop thoai thong bao : alert box
+        function ThongBao() {
+            alert("xin chao cac ban")
+        }
+
+        //Hop thoai xac nhan : confirm box
+        function XacNhan() {
+          var xacnhan;
+          xacnhan = confirm("Ban da danh gia khoa hoc nay chua")
+          if (xacnhan) {
+              document.write("cam on ban danh gia khoa hoc");
+          } else {
+              document.write("ban vui long danh gia khoa hoc");
+          }
+        }
+
+        //hop thoai nhap lieu : prompt box
+        function NhapDuLieu() {
+            var ten;
+            ten = prompt("vui long nhap ten cua ban");
+            document.write(ten);
+        }
+
+    </script>        
+</head>
+<body>
+    <input type="button" value="Thong Bao" onclick="ThongBao()">
+    <br>
+    <input type="button" value="Xac Nhan" onclick="XacNhan()">
+    <br>
+    <input type="button" value="Nhap Du lieu" onclick="NhapDulieu()">
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: 'Lato';
+    background: #ffffff;
+    line-height: 22px;
+}
+.fl-left {float: left;}
+.fl-right {float: right;}
+#wrapper {
+    width: 1170px;
+    margin: 0px auto;
+}
+/* style header */
+#header {
+    background: beige;
+}
+#home {
+    padding: 20px;
+}
+#main-menu li {
+    float: left;
+}
+#main-menu li a {
+    display: block;
+    padding: 20px;
+}
+/* style content */
+#content {
+    width: 500px;
+    padding: 112px 100px 0px 20px;
+    min-height: 400px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500px;
+    color: #4e6cb4;
+    margin-bottom: 20px;
+}
+#button {
+    width: 200px;
+    margin-top: 5px;
+}

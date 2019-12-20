@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("fonts/Roboto-Medium.ttf")
+}
+body {
+    background:#f3f4f6;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.wp-inner {
+    margin: 0px auto;
+    width: 960px;
+}
+/* style header */
+#header {
+    background: #404040;
+    padding: 10px 0px 15px 0px;
+    color: #ffffff;
+}
+ /* style wp-content */
+ #wp-content {
+    background: #ffffff;
+    color:#5b5252;
+ }
+ #content {
+     width: 690px;
+     min-height: 550px;
+     padding: 20px 15px;
+     float: right;
+ }
+ #sidebar {
+     width: 270px;
+     min-height: 550px;
+     padding: 20px 15px;
+     background:#f3f4f6;
+     float: left;
+}
+
+/* style footer */
+#footer {
+    background: #808080;
+    padding: 27px 0px 31px 0px;
+    color: #ffffff;
+}

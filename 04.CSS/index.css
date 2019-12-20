@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0px auto;
+}
+.div1 {
+  padding: 2px;
+}
+.div2 {
+  padding: 2px;
+}

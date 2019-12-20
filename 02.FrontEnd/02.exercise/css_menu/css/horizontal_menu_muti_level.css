@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase; 
+}
+/* style header */
+#header {
+    background: #2bbc9b;
+}
+#main-menu li {
+    float: left;
+    position: relative;
+}
+#main-menu li a {
+    color: #fff;
+    padding: 20px 28px;
+    display: block;
+}
+#logo {
+    padding: 8px 0px;
+}
+#main-menu>li:hover>a {
+    background:#24a085;
+    transition: all 0.25s;
+}
+/* style sub-menu */
+#main-menu .sub-menu {
+    display: none;
+    position: absolute;
+    width: 240px;
+    background: #2bbc9b;
+}
+                        /* float:none để cho khung sub menu full ra */
+#main-menu .sub-menu li {
+    float: none;
+}
+#main-menu .sub-menu li a {
+    position: relative;
+    padding: 16px 28px;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+                            /* style add icon */
+#main-menu .sub-menu li a::after {
+    content: "\f0da";
+    font-family: 'fontawesome';
+    position: absolute;
+    right: 15px;
+    font-size: 16px;
+}
+/* style menu-level2 */
+#main-menu .sub-menu li ul {
+    left: 100%;
+    top: 0px;
+}
+/* ẩn hiện */
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+#main-menu ul.sub-menu li:hover>a {
+    background: #24a085;
+}

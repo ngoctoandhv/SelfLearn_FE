@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>String</title>
+</head>
+<body>
+    <script>
+        
+        var chuoi="He thong khoa hoc myclass.vn,học lập trình tại myclass.vn ";
+
+        //tìm vị trí chuỗi con nằm đầu
+        document.write("Vi tri xuat hien myclass.vn đầu tiên la :"+ chuoi.indexOf("myclass.vn")+"<br>");  
+        
+        document.write("Vi tri xuat hien myclass.vn đầu tiên bằng phương thức search la :"+ chuoi.search("myclass.vn")+"<br>"); 
+
+        //tìm vị trí chuỗi con nằm cuối
+        document.write("vị trí xuất hiện myclass.vn cuối cùng là :" + chuoi.lastIndexOf("myclass.vn")+"<br>")
+
+        //slice
+            //nếu truyền số âm thì nó tính từ cuối,nếu truyền một số thì nó sẽ là số end,nó lấy từu vị trị đó đến cuối
+        document.write("chuoi can lay la: "+chuoi.slice(30,40)+"<br>");
+
+        // substring : thì cũng tương tự slice nhưng phải truyền giá trị dương
+
+        //substr thì nhập start và length,start âm dương cũng dc..nhưng length là số dương
+        document.write("chuoi can lay la: "+chuoi.substr(30,5)+"<br>");
+
+        //tìm kiếm và thay thế
+        document.write(chuoi.replace("myclass.vn","AwesomeAcademy"));
+
+        //đổi chữ in hoa và chữ thường
+        chuoi.toUpperCase();
+        chuoi.toLowerCase();
+
+
+
+    </script>
+</body>
+</html>

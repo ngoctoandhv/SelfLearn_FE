@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>backgroud trong html</title>
+</head>
+<body>
+    <style>
+        body{background-color: #c1b9b9}
+        .show-code{padding-top: 50px; padding-left:20px;}
+        .box{width: 400px; height: 200px; border: 10px solid #ea2020; margin-bottom: 20px; }
+        .box-1{background-color: #a06868;}
+        .box-2{background-image: url(img/logo.jpg)}
+        .box-3{background-image: url(img/logo.jpg);
+               background-repeat: no-repeat;}
+        .box-4{background-image: url(img/logo.jpg);
+                background-repeat: no-repeat;
+                background-size: contain; }
+    </style>
+    <p class="show-code"><code>background-color: #c1b9b9</code></p>
+    <!-- backgroud-color -->
+    <div class="box-1 box">
+         <p class="show-code"><code>background-color: #c1b9b9</code></p>
+    </div>
+    <!-- backgroud-image -->
+    <div class="box-2 box">
+            <p class="show-code"><code>background-image: url(img/logo.jpg)</code></p>
+    </div>
+    <!-- backgroud-repent -->
+    <div class="box-3 box">
+            <p class="show-code"><code>background-image: url(img/logo.jpg);<br> background-repeat: no-repeat;</code></p>
+    </div>
+    <!-- backgroud-actachment -->
+    <div class="box-4 box">
+            <p class="show-code"><code>background-image: url(img/logo.jpg);<br> background-repeat: no-repeat;</code></p>
+    </div>
+
+</body>
+</html>

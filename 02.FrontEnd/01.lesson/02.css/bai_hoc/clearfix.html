@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>clearfix</title>
+</head>
+<body>
+    <style>
+        .clearfix:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+        .clearfix { display: inline-block; }
+        /* start commented backslash hack \*/
+        * html .clearfix { height: 1%; }
+        .clearfix { display: block; }
+        /* close commented backslash hack */
+        #wrapper { width: 960px; margin:0px auto;}
+        #header, #footer { height: 80px; background: #333333;color: #ffffff; text-align: center;}
+        #content, #sidebar { min-height: 600px;}
+        #content { width: 70%; float: left; background: cornflowerblue;}
+        #sidebar { width: 30% ; float:right; background: salmon; }
+        .box {padding: 20px 30px;}
+    </style>
+    <div id="wrapper">
+        <div id="header">
+            <div class="box">header</div>
+        </div>
+        <div id="wp-content">
+            <div id="content">Content</div>
+            <div id="sidebar">Sidebar</div>
+            <div class="clearfix"></div>
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+a{color:red;}
+ul li a { color:gray;}
+
+ul#main_menu li a {color: #000;}
+ul.list_item li a {color: hotpink !important;}

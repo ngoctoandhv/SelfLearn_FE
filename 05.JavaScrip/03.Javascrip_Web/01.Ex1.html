@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS</title>
+    <script >
+        //if==========================================
+        function KiemTra(giatri) {
+            if (giatri==8) {
+                alert("So 8")
+            }
+            else {
+                alert("khong phai so 8")
+            }
+        }
+
+        // swith-case=================================
+        function XetHocLuc(dtb) {
+            var thongbao="";
+            switch (dtb) {
+                case 9:
+                    thongbao="Hoc luc xuat sac"
+                    break;
+                case 8:
+                    thongbao="Hoc luc xuat sac"
+                    break;
+                default:
+                    thongbao="Khong xet hoc luc"
+                    break;
+            }
+            alert(thongbao)   
+        }
+        // for ==============================================
+        function Xuat10Cau() {
+            document.write("chuong trinh xuat so chan <br>");
+            for (i = 0; i < 100; i+=2) {
+                if (i%2==0) {
+                    document.write("so chan thu"+i+"<br>");
+                }
+            }   
+        }
+
+        //while===============================================
+        function VongLapWhile(toida) {
+            i=0;
+            while (i<toida) {
+                document.write("so" + i + "br");
+            }  
+        }
+
+    </script>
+</head>
+<body>
+    <input type="button" value="Click vao day" onclick="KiemTra(6)">
+    <input type="button" value="Kiem Tra Hoc Luc" onclick="XetHocLuc(9)">
+    <input type="button" value="Xuat so chan" onclick="Xuat10Cau()">
+</body>
+</html>

@@ -1,0 +1,264 @@
+body{
+	font-family: "Roboto";
+	font-size: 15px;
+	line-height: 22px;
+}
+/*style header*/
+#header{
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+}
+#header ul li {
+	float: left;
+}
+#header ul li a{
+	display: block;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 21px 20px;
+}
+#header a {
+	 display: block;
+    padding: 13px 46px 5px 0px;
+}
+
+#form-search{
+	margin: 13px 0px  5px 40px;
+	position: relative;
+}
+#key-search{
+	outline: none;
+	border:1px solid #e1e1e1;
+	border-radius: 5px;
+	height: 36px;
+	width: 176px;
+	font-style: italic;
+	color: #e1e1e1;
+	padding-left: 15px;
+
+}
+#submit{
+	border:none;
+	position: absolute;
+	left: 85%;
+	top:25%;
+	background: #fff;
+	color: #a3a3a3;
+	font-size: 13px;
+}
+#header ul li:hover>a{
+	background: #008643;
+	color: #fff;
+	transition: 0.25s;
+} 
+/*end header*/
+#bottom-header{
+	background: #f3f3f3;
+}
+#bottom-header ul li {
+	float: left;
+}
+#bottom-header ul li a{
+	display: block;
+	font-size: 11px;
+	font-weight: 500;
+	padding: 5px 22px 5px 0px;
+	color: #454545;
+}
+#bottom-header ul li a#a1{
+	position: relative;
+}
+#bottom-header ul li a#a1:after{
+	font-family: "FontAwesome";
+	content: "\f105";
+	font-size: 11px;
+	color: #454545;
+	position: absolute;
+	right: 9px;
+    top: 6px;
+}
+#bottom-header ul li:hover>a{
+	color: #000;
+	text-decoration: underline;
+	transition: 0.25s;
+
+}
+/*end bottom-header*/
+/*style content*/
+#wp-content{
+	padding-top: 45px;
+	padding-bottom: 80px;
+}
+#content{
+	width: 830px;
+	border-right: 1px solid #d8d8d8;
+	padding-right: 37px;
+}
+#content div.post-title h1{
+	font-size: 26px;
+	line-height: 33px;
+	color: #1f1f1f;
+	font-weight: 500;
+	margin-bottom: 37px;
+}
+#content  img.post-thumb{
+	margin-bottom:85px;
+}
+#content p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #444444;
+	margin-bottom: 35px;
+}
+#list-post-connect div.post-title {
+	font-size: 21px;
+	line-height: 20px;
+	color: #1f1f1f;
+	border-bottom: 1px solid #01a050;
+	padding-bottom: 18px;
+	margin-bottom: 18px;
+}
+#list-post-connect ul.list-post li{
+	width: 253px;
+	float: left;
+}
+#list-post-connect ul.list-post li a{
+	display: block;
+	/*giúp a chiếm chọn img */
+}
+#list-post-connect ul.list-post li a h4{
+	font-size: 14px;
+	line-height: 20px;
+	color: #1f1f1f;
+	margin-top: 18px;
+}
+#list-post-connect ul li a:hover h4{
+	text-decoration: underline;
+	transition: 0.25;
+	color: blue;
+} 
+#content div.widget-list{
+	margin: 0px 368px;
+}
+#content div.widget-list i {
+	font-size: 13px;
+	margin-right: 5px;
+	color: #928e8e;
+}
+#content div.widget-list ul li:hover a{
+	color: black;
+}
+/*style sidebar*/
+#sidebar{
+	width: 340px;
+	padding-left: 33px;
+}
+#sidebar>div{
+	margin-bottom: 50px;
+}
+#sidebar div .sidebar-detail{
+	margin-top: 19px;
+}
+#sidebar div h2{
+	font-size: 21px;
+	line-height: auto;
+	font-weight: 500;
+	margin-bottom: 18px;
+}
+#sidebar div.topview{
+	border-bottom: 1px solid #01a050;
+}
+#sidebar ul li div a:hover h4{
+	color: blue;
+	transition: 0.25s;
+	text-decoration: underline;
+}
+/*phần ul style ở đây!*/
+ul.list-post li{
+	margin-bottom: 20px;
+}
+ul.list-post li a{
+	display: block;
+	padding-right: 20px;
+
+}
+ul.list-post li div h4{
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	font-weight: 500;
+}
+ul.list-post li:hover h4{
+	color: blue;
+	text-decoration: underline;
+	transition: 0.25s;
+}
+/*end sidebar*/
+/*style footer*/
+#footer{
+	background: #01a050;
+}
+#info{
+	width: 293px;
+	padding-right: 40px;
+}
+#info #info-detail p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px;
+	padding-bottom: 20px;
+
+}
+#block-list{
+	width: 242px;
+	padding: 0px 36px 0px 30px;
+}
+
+ul.sub-menu li a{
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px;
+	padding-left: 15px;
+}
+ul.sub-menu li a:before{
+	position: absolute;
+	font-family: "FontAwesome";
+	content: "\f105";
+	font-size: 16px;
+	color: #fff;
+	left: 0px;
+}
+
+#block-list-info{
+	width: 358px;
+	padding:0px 22px 0px 30px;
+}
+
+
+#footer .footer-head{
+	margin-bottom: 40px;
+}
+#footer .footer-head h4{
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 500;
+	color: #fff;
+}
+#footer div ul li:hover>a{
+	text-decoration: underline;
+	transition: 0.25s;
+}
+#wp-footer{
+	padding:40px 0px 24px 0px;
+}
+/*end footer*/
+#copyright{
+	padding:12px 0px;
+	
+}

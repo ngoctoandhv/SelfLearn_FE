@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <!-- type="text" dùng để nhập văn bản -->
+        Ho lot <br>
+        <input type="text" name="Ho"> <br> 
+        Ten <br>
+        <input type="text" name="Ten" ><br>
+
+        <!-- type="password" dùng để nhập mật khẩu -->
+        Mat khau <br>
+        <input type="password"> <br>
+
+        <!-- type = "hidden" dùng để ẩn khi chuyển đến server -->
+        Heddin text <br>
+        <input type="hidden" >  <br>
+
+        type checkbox <br>
+        AnhVan <input type="checkbox" name="" id=""><br><br>
+
+        <!-- type ="radio" khi dùng chung 1 name thì chúng ta chỉ sử dụng được 1 trong 2 lựa chọn -->
+        type radio <br>
+        nam <input type="radio" name="sex" id=""><br>
+        nu <input type="radio" name="sex" id=""><br>
+        <br>
+
+        <!-- submit button mỗi form chỉ có một submit -->
+        <input type="submit" value="send">  <br>
+
+        <!-- reset -->
+        <input type="reset" value="reset"> <br>
+
+        <!-- button  -->
+        <input type="button" value="button" onclick="alert ('Hello javascrip')" > <br>
+
+        <!-- textarea -->
+        <textarea name=" " id="" cols="30" rows="10">
+
+        </textarea><br>
+
+        <!-- combobox -->
+        combobox : 
+        <select name="" id="">
+            <optgroup label="frontend">
+                <option value="">html</option>
+                <option value="">css</option>
+                <option value="">javascrip</option>
+            </optgroup>
+            <option selected label="backend" value="">backend</option>
+        </select>
+
+    </form>
+
+    <!-- file upload control -->
+    upload file <br>
+    <form action="" method="post" enctype="multipart/form-data">
+        <input type="file"> <br>
+    </form>
+    <br>
+
+
+
+</body>
+</html>

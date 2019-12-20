@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 22px;
+}
+/* style header  */
+#header {
+    background:#2bbc9b;
+}
+#main-menu li {
+    float: left;
+    position: relative;
+}
+#main-menu li a {
+    display: block;
+    color: #ffffff;
+    padding: 30px 28px 34px;
+    text-transform: uppercase;
+}
+#logo {
+    padding: 21px 28px;
+}
+#main-menu>li:hover>a{
+    background: #24a085;
+    transition: all 0.25s;
+}
+/* Style sub-menu */
+#main-menu .sub-menu {
+    display: none;
+    position: absolute;
+    width: 240px;
+    background: #2bbc9b;
+}
+#main-menu .sub-menu li {
+    float: none;
+}
+#main-menu .sub-menu li a {
+    font-size: 18px;
+    padding: 16px 28px 17px; 
+    border-top: 1px solid #ffffff;
+    position: relative;
+}
+/* add icon */
+#main-menu .sub-menu li a::after {
+    content: "\f0da";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 15px;
+    font-size: 16px;
+}
+/* menu cap 2 */
+#main-menu .sub-menu li ul {
+    top:0px;
+    left: 100%;
+}
+/* ẩn hiện */
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+#main-menu ul.sub-menu li:hover>a {
+    background: #24a085;
+    transition: all 0.25s;
+}
+
+

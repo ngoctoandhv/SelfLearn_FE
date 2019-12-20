@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        
+        function LayNoiDung() {
+            var theP=document.getElementById("noidung")
+            theP.innerHTML="xin chao"
+            theP.style.color="red"
+        }
+
+        function LayNoiDungTheP() {
+            var tatcaP=document.getElementsByTagName("p")
+            alert("so the p :  " + tatcaP.length + "noi dung the p :" + tatcaP[2].innerHTML )
+        }
+
+        function LayNoiDungClass() {
+            var tatcaP=document.getElementsByClassName("demo")
+            alert("so the p :  " + tatcaP.length + "noi dung the p :" + tatcaP[0].innerHTML )
+        }
+    </script>
+
+</head>
+<body>
+    <p id="noidung"></p>
+    <input type="button" value="Lay Noi Dung" onclick="LayNoiDung()">
+
+    <p class="demo">the p1</p>
+    <p class="demo">the p2</p>
+    <p>the p3</p>
+    <input type="button" value="Lay Noi Dung The p" onclick="LayNoiDungTheP()">
+
+    <input type="button" value="Lay Noi Dung class" onclick="LayNoiDungClassmkd()">
+
+</body>
+</html>
